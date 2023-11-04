@@ -1,11 +1,11 @@
 import one from "../assets/svg/projects/one.svg";
 import two from "../assets/svg/projects/two.svg";
 import three from "../assets/svg/projects/three.svg";
-import four from "../assets/svg/projects/four.svg";
-import five from "../assets/svg/projects/five.svg";
+import nine from "../assets/svg/projects/nine.svg";
 import six from "../assets/svg/projects/six.svg";
 import seven from "../assets/svg/projects/seven.svg";
 import eight from "../assets/svg/projects/eight.svg";
+import ten from "../assets/svg/projects/ten.svg";
 
 export const projectsData = [
   {
@@ -21,8 +21,9 @@ export const projectsData = [
   {
     id: 2,
     projectName: "E-Commerce App",
-    projectDesc: "It is B2B E-commerce webapp that promotes the sellers profit in the market.",
-    tags: ["React", "Antd", "Tailwind"],
+    projectDesc:
+      "It is B2B E-commerce webapp that promotes the sellers profit in the market.",
+    tags: ["React", "Antd", "Tailwind", "Redux"],
     code: "https://github.com/hhhrrrttt222111/developer-portfolio",
     demo: "https://github.com/hhhrrrttt222111/developer-portfolio",
     image: two,
@@ -39,22 +40,22 @@ export const projectsData = [
   },
   {
     id: 4,
-    projectName: "Android Patient Tracker",
+    projectName: "Tic-Tae-Toe",
     projectDesc:
-      "This project involves the development of an Android application for viewing and managing patient data.",
-    tags: ["Flutter", "Firebase"],
+      "Tic-Tac-Toe is a game application,allowing players to enjoy the classic game of Tic-Tac-Toe",
+    tags: ["React", "Tailwind", "Firebase"],
     code: "https://github.com/hhhrrrttt222111/developer-portfolio",
     demo: "https://github.com/hhhrrrttt222111/developer-portfolio",
-    image: four,
+    image: nine,
   },
   {
     id: 5,
-    projectName: "E-Commerce App",
-    projectDesc: "A Simple E-commerce application",
-    tags: ["React Native", "Firebase"],
+    projectName: "Digital Clock / Stop Watch",
+    projectDesc: "A simple digital clock and stop watch",
+    tags: ["React", "CSS"],
     code: "https://github.com/hhhrrrttt222111/developer-portfolio",
     demo: "https://github.com/hhhrrrttt222111/developer-portfolio",
-    image: five,
+    image: ten,
   },
   {
     id: 6,

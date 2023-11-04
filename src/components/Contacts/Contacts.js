@@ -320,16 +320,6 @@ function Contacts() {
                   <FaInstagram aria-label="Instagram" />
                 </a>
               )}
-              {socialsData.youtube && (
-                <a
-                  href={socialsData.youtube}
-                  target="_blank"
-                  rel="noreferrer"
-                  className={classes.socialIcon}
-                >
-                  <FaYoutube aria-label="YouTube" />
-                </a>
-              )}
             </div>
           </div>
         </div>
